@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: palevioletred;
+  padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .home {
+    padding: 70px;
+  }
+}

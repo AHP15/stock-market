@@ -1,0 +1,22 @@
+.header {
+  background-color: palevioletred;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.back {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 15px 70px;
+  }
+}

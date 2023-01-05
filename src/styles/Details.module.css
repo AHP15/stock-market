@@ -1,0 +1,22 @@
+.error {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.details {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(181, 93, 123);
+  height: 100vh;
+  padding-top: 70px;
+}
+
+.card_container {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .details {
+    padding: 70px;
+  }
+}

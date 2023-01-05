@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Stock Market] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+
+Stock Market is a React app that stock values about top tech companies in the united states
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,20 +76,15 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">@reduxjs/toolkit</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://render.com/">render</a></li>
+    <li><a href="https://site.financialmodelingprep.com/developer/docs//">financialmodeling API</a></li>
   </ul>
 </details>
 
@@ -97,11 +92,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Display List of stock prices of tech companies
+- Display detail info about tech companies
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +101,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://stock-market-325f.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +110,68 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+* React.js
+* Redux.js
+* SPA
+* HTML/CSS
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Abdessittir/stock-market.git
 ```
---->
+
+```sh
+  Create a `.env` file and add to it two variables:
+  `REACT_APP_BASE_URL` `REACT_APP_API_KEY`
+```
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
 ```sh
-  rails server
+npm start
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
 
 ```sh
-
+  npm run build
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +179,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Abdessittir](https://github.com/Abdessittir)
+- LinkedIn: [@Abdessittir](https://www.linkedin.com/in/abdessittirharkati/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +194,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] Add list of companies in other sectors
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +204,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Abdessittir/stock-market/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +212,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please consider giving it a start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +220,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) for this inspiring design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +229,14 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- which module this project is on?
 
-  - [Answer_1]
+  - Mudule 3
 
-- **[Question_2]**
+- difficulty level
 
-  - [Answer_2]
+  - easy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +244,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Abdessittir/stock-market/blob/dev/MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 

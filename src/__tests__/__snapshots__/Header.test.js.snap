@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header correctly 1`] = `
+<header
+  className="header"
+>
+  <a
+    className="back"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="back"
+      src="left.png"
+    />
+  </a>
+  <p>
+    US tech companies
+  </p>
+</header>
+`;

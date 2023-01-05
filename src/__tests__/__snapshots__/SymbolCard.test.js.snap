@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Details correctly 1`] = `
+<a
+  className="link"
+  href="/details/test/1"
+  onClick={[Function]}
+>
+  <h3
+    className="symbol"
+  >
+    test
+  </h3>
+  <img
+    alt="details"
+    className="more"
+    src="arrow.png"
+  />
+  <div
+    className="info"
+  >
+    <h4>
+      test
+    </h4>
+    <p>
+      100
+      $
+    </p>
+  </div>
+</a>
+`;
