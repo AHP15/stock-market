@@ -84,6 +84,7 @@ Stock Market is a React app that stock values about top tech companies in the un
   <summary>Server</summary>
   <ul>
     <li><a href="https://render.com/">render</a></li>
+    <li><a href="https://site.financialmodelingprep.com/developer/docs//">financialmodeling API</a></li>
   </ul>
 </details>
 
@@ -130,6 +131,11 @@ Clone this repository to your desired folder:
   git clone https://github.com/Abdessittir/stock-market.git
 ```
 
+```sh
+  Create a `.env` file and add to it two variables:
+  `REACT_APP_BASE_URL` `REACT_APP_API_KEY`
+```
+
 ### Install
 
 Install this project with:
@@ -173,7 +179,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
